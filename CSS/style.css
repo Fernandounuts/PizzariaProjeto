@@ -10,7 +10,7 @@ nav{
     height: 80px;
     width: 100%;
     top: 0px;
-    position: sticky;
+    position: fixed;
 }
 
 label.logo{
