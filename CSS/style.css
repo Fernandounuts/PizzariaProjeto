@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    background-image: url("images/pizzaDeCalabreza.jpg");
 }
 nav{
     background-color: rgb(37, 39, 39);;
