@@ -4,10 +4,15 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
-    background-image: url("images/pizzaDeCalabreza.jpg");
 }
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
 nav{
-    background-color: rgb(37, 39, 39);;
+    background-color: rgb(166, 151, 11);;
     height: 80px;
     width: 100%;
     top: 0px;
@@ -39,13 +44,29 @@ nav ul li a{
     text-transform: uppercase;
     padding: 7px 13px;
 }
+    .promoSemana{
+        font-size: 12px;
+        padding-top: 50px;
+        margin-top: 15%;
+        width: 98%;
+        margin-left: 1%;
+        height: 200px;
+        border-radius: 10px;
+        border: 1px rgb(0, 0, 0) solid;
+    }
 
-.active:hover{
-    background: rgba(18, 18, 18, 0.3);
-    border-radius: 50px;
-}
+    .promoSemana h1{
+        text-align: center;
+    }
 
-.cardapioMain{
-    background-image: url("../images/pizzaDeCalabreza.jpg");
-}
-
+    .rodape{
+        height: 80px;
+        color: white;
+        font-size: 14px;
+        text-align: center;
+        text-shadow: 2px 2px 2px black;
+        background: #292929;
+        padding-top: 30px;
+        clear: both;
+        margin-top: 15rem;
+    }   
